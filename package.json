@@ -1,0 +1,41 @@
+{
+    "name": "sandbox",
+    "version": "1.0.0",
+    "description": "Sandbox Coding Practice",
+    "private": true,
+    "type": "module",
+    "main": "bin/sandbox1.js",
+    "bin": {
+        "sandbox": "./bin/sandbox.js",
+        "sandbox1": "./bin/sandbox1.js",
+        "sandbox2": "./bin/sandbox2.js",
+        "sandbox3": "./bin/sandbox3.js",
+        "sandbox4": "./bin/sandbox4.js",
+        "sandbox5": "./bin/sandbox5.js",
+        "sandbox6": "./bin/sandbox6.js",
+        "sandboxBlackJack": "./bin/sandboxBlackJack.js",
+        "sandboxMining": "./bin/sandboxMining.js",
+        "sandboxRockPaperScissors": "./bin/sandboxRockPaperScissors.js"
+    },
+    "scripts": {
+        "sandbox": "node ./bin/sandbox.js",
+        "sandbox1": "node ./bin/sandbox1.js",
+        "sandbox2": "node ./bin/sandbox2.js",
+        "sandbox3": "node ./bin/sandbox3.js",
+        "sandbox4": "node ./bin/sandbox4.js",
+        "sandbox5": "node ./bin/sandbox5.js",
+        "sandbox6": "node ./bin/sandbox6.js",
+        "sandboxBlackJack": "node ./bin/sandboxBlackJack.js",
+        "sandboxMining": "node ./bin/sandboxMining.js",
+        "sandboxRockPaperScissors": "node ./bin/sandboxRockPaperScissors.js"
+    },
+    "keywords": [],
+    "author": "Nathan Stirling",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^5.0.0",
+        "crypto": "^1.0.1",
+        "eslint": "^7.22.0",
+        "inquirer": "^8.2.0"
+    }
+}
